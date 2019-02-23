@@ -3,7 +3,7 @@ from PIL import Image
 from pytesseract import *
 import re
 from fractions import gcd
-session_id={'PHPSESSID':'hc5tpmjuvlbdbkqkgodbtq7sd4'}
+session_id={'PHPSESSID':''}
 
 def OCR(imgfile, lang='eng'):
 	img=Image.open(imgfile)
